@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    /* width: 100%; */
+    margin-left: 1rem;
+    padding: 10px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 57rem;  */
+    margin-right: 5px;
+    margin-left: 55rem; 
+    /* margin-bottom: 2.5rem; */
+    margin-top: 10px;
+}
+.side img{
+    height: 24px;
+    width: 24px;
+}
+#logo{
+    height: 65px;
+}
+/* #america{
+   margin-right: 5px;
+    margin-left: 57rem; 
+    margin-bottom: 2.5rem;
+    margin-top: 10px;
+} */
+.nav{
+    margin: 0 2rem;
+    display: flex;
+    padding: 10px;
+    margin-top: 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* gap: 2px; */
+}
+.nav ul a{
+    margin-right: 0.8rem;
+    text-decoration: none;
+    text-size-adjust: 1px;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    color: black;
+    list-style: none;
+    position: relative;
+    padding: 0 0 1px;
+    font-size: 1rem;
+    letter-spacing: 0;
+    float: left;
+    line-height: 22px;
+    font-weight: 400;
+ 
+}
+#search{
+    text-align: end;
+    padding-right: 2px;
+    margin-right: 0;
+    margin-left: 10rem;
+    padding: 0;
+}
+.smallnav{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.smallnav ul{
+    display: flex;
+    letter-spacing: 0;
+    list-style: none;
+    /* margin-right: 1rem; */
+    text-transform: uppercase;
+   
+    font-size: 0.8rem;
+
+}
+.smallnav ul li{
+    font-weight: 550;
+    margin-right: 0.7rem;
+}
+.smallnav ul li:hover{
+    background-color: grey;
+}
+
+.main{
+    display: flex;
+    height: 420px;
+    width: 800px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 2rem;
+    margin-top: 2px;
+    width: 70%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    padding-top: 16px;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    padding: 10px;
+}
+.second{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.second img{
+    padding-right: 10px;
+}
+ #red{
+    color: red;
+}
+ #green{
+    font-weight: 600;
+    color: green;
+}
+.second{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+.man{
+    border: 1px solid grey;
+    padding: 1rem;
+    margin: 2rem;
+    padding-bottom: 0;
+    
+}
+/* .body{
+    display: flex;
+}
+.side{
+    border: 1px solid grey;
+    width: 30%;
+} */
+.graph{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 2rem;
+    width: 800px;
+}
+ #line{
+    border: 1px solid grey;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+
+}
+.foot{
+    margin-left: 25rem;
+    text-align: center;
+    line-height: 25px;
+    width: 40%;
+}
